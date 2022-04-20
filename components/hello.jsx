@@ -7,7 +7,12 @@ class HelloWorld extends React.Component {
     }
 
     render () {
-        return <h1>Hi</h1>;
+        return(
+            <>
+                <h1>Hello, World!</h1>
+                <p>Welcome to your first React application.</p>
+            </>
+        );
     }
 }
 
