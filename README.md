@@ -13,6 +13,14 @@ Follow these steps to use this project for learning purposes. All commands below
     * Run this every time you want to build/compile your latest React code
 4. Open `index.html` to view your React application
 
+## What does this toolchain do?
+
+Here's a brief overview of how each piece of this toolchain contributes to building React applications:
+
+* **Node** - local JS utility for orchestrating other tools
+* **Webpack** (Node package) - bundles JavaScript files together; task runner for building JSX files
+* **Babel** (Node package) - compiler/transpiler that converts React/JSX to pure JavaScript
+
 ## Initial steps to create this project
 
 These are the steps used to create this solution from scratch:
