@@ -17,7 +17,7 @@ Follow these steps to use this project for learning purposes. All commands below
 
 Here's a brief overview of how each piece of this toolchain contributes to building React applications:
 
-* **Node** - local JS utility for orchestrating other tools
+* **Node** - local JS utility for orchestrating other tools & packages
 * **Webpack** (Node package) - bundles JavaScript files together; task runner for building JSX files
 * **Babel** (Node package) - compiler/transpiler that converts React/JSX to pure JavaScript
 
