@@ -8,7 +8,7 @@ Follow these steps to use this project for learning purposes. All commands below
 
 1. Ensure the following pre-reqs are met:
     * Node installed (16.14.2 or newer)
-2. Run: `npm install` (installed configured Node modules - see `package.json`)
+2. Run: `npm install` (installs configured Node modules - see `package.json`)
 3. Run webpack to build/compile the solution: `npx webpack --config webpack.config.js`
     * Run this every time you want to build/compile your latest React code
 4. Open `index.html` to view your React application
