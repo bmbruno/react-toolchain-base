@@ -1,6 +1,6 @@
-## Building a React Toolchain from Scratch
+## About
 
-This repo provides a simple project pre-configured for React development. This uses a ground-up approach; that is, React, Webpack, and Babel are configured from scratch to support React development. This was based on React 18 at the time of creation.
+This repo provides a simple project pre-configured for React development. It includes the most-basic toolchain possible for writing, building, and compiling React applications. This uses a ground-up approach; that is, React, Webpack, and Babel are configured from scratch to support React development. This was based on React 18 at the time of creation.
 
 ## Getting Started
 
@@ -8,9 +8,15 @@ Follow these steps to use this project for learning purposes. All commands below
 
 1. Ensure the following pre-reqs are met:
     * Node installed (16.14.2 or newer)
-2. Run: `npm install` (installs configured Node modules - see `package.json`)
-3. Run webpack to build/compile the solution: `npx webpack --config webpack.config.js`
-    * Run this every time you want to build/compile your latest React code
+2. Run _npm install_ to install configured Node modules (see `package.json`):
+    ```
+    npm install
+    ```
+
+3. Run webpack to build/compile the solution (run this every time you want to build/compile your latest React code):
+    ```
+    npx webpack --config webpack.config.js
+    ```
 4. Open `index.html` to view your React application
 
 ## What does this toolchain do?
