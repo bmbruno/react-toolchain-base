@@ -10,7 +10,8 @@ class ReactLinks extends React.Component {
 
         let target = (this.props.openNewWindow && this.props.openNewWindow == "true") ? "_blank" : "_self";
 
-        return(
+        return (
+
             <div>
                 <h2>Useful React Resources</h2>
                 <ul>
@@ -19,7 +20,9 @@ class ReactLinks extends React.Component {
                     <li><a href="https://react-tutorial.app/" target={target}>React Tutorial</a></li>
                 </ul>
             </div>
+
         );
+        
     }
 }
 

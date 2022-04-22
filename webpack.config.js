@@ -1,3 +1,10 @@
+/*
+
+This configuration tells Webpack where our 'source' scripts (JS and JSX) are.
+It also configures where the bundled script should be generated ('/dist/bundle.js').
+
+*/
+
 const path = require('path')
 
 module.exports = {

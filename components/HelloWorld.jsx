@@ -23,7 +23,8 @@ class HelloWorld extends React.Component {
     }
 
     render () {
-        return(
+
+        return (
             <>
                 <h1>Hello, World!</h1>
                 <p>Today's date is {this.formatDate(this.state.today)}</p>
@@ -32,7 +33,8 @@ class HelloWorld extends React.Component {
                 <ReactLinks openNewWindow="true" />
             </>
         );
+        
     }
 }
 
-export default HelloWorld
+export default HelloWorld;
